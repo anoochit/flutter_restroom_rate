@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restroom_rate/tellusmore.dart';
 import 'package:restroom_rate/thankyou.dart';
 
 void main() => runApp(MyApp());
@@ -31,7 +32,7 @@ class RateForm extends StatelessWidget {
             stops: [0.1, 0.9],
             colors: [
               // Colors are easy thanks to Flutter's Colors class.
-              Colors.pink[800],
+              Colors.pink,
               Colors.purple[900],
             ],
           ),
@@ -67,7 +68,8 @@ class RateForm extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => ThankyouPage()),
+                        MaterialPageRoute(
+                            builder: (context) => TellUsMorePage()),
                       );
                     },
                   ),
@@ -78,7 +80,8 @@ class RateForm extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => ThankyouPage()),
+                        MaterialPageRoute(
+                            builder: (context) => TellUsMorePage()),
                       );
                     },
                   ),

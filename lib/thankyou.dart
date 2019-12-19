@@ -28,7 +28,7 @@ class _ThankyouPageState extends State<ThankyouPage> {
               stops: [0.1, 0.9],
               colors: [
                 // Colors are easy thanks to Flutter's Colors class.
-                Colors.pink[800],
+                Colors.pink,
                 Colors.purple[900],
               ],
             ),
