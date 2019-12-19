@@ -64,13 +64,23 @@ class RateForm extends StatelessWidget {
                     icon: Icon(Icons.sentiment_very_dissatisfied),
                     iconSize: 100.0,
                     color: Colors.yellow[600],
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ThankyouPage()),
+                      );
+                    },
                   ),
                   IconButton(
                     icon: Icon(Icons.sentiment_dissatisfied),
                     iconSize: 100.0,
                     color: Colors.yellow[600],
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ThankyouPage()),
+                      );
+                    },
                   ),
                   IconButton(
                     icon: Icon(Icons.sentiment_neutral),

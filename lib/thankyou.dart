@@ -40,14 +40,14 @@ class _ThankyouPageState extends State<ThankyouPage> {
                 Text(
                   "Thank you",
                   style: TextStyle(
-                      fontSize: 40,
+                      fontSize: 60,
                       fontWeight: FontWeight.w600,
                       color: Colors.white),
                 ),
                 SizedBox(
                   height: 32.0,
                 ),
-                RaisedButton(
+                FlatButton(
                   textColor: Colors.white,
                   color: Colors.black,
                   child: Padding(
